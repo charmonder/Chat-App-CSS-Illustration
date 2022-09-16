@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: hsl(270, 20%, 96%);
+  height: 100%;
+  position: relative;
+}
+
+/**************************** TEXT STYLES ****************************/
+
+p{
+  font-size: 0.7rem;
+}
+
+h2{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+h3{
+  color: white;
+  font-size: 0.9rem;
+}
+
+.profile-details p{
+  color: hsl(276, 100%, 81%);
+  line-height: 1.5;
+}
+
+.in-1 p, .in-2 p, .in-3 p{
+  color: hsl(276, 55%, 52%);
+  line-height: 1.5;
+}
+
+.out-1 p, .out-2 p{
+  color: hsl(271, 15%, 43%);
+  line-height: 1.5;
+}
+
+.radio-details p{
+  color: hsl(276, 100%, 91%);
+}
+
+.reply-bar p{
+  color: hsl(206, 6%, 79%);
+  font-size: 0.8rem;
+}
+
+.arrow h2{
+  color: white;
+}
+
+.details h2{
+  color: hsl(270, 7%, 64%);
+  line-height: 1.5;
+  margin: 0 auto 80px;
+  max-width: 430px;
+}
+
+.profile-details h3{
+  font-weight: 500;
+}
+
+.hamburger h3{
+  color: hsl(270, 20%, 96%);
+  font-weight: 700;
+  line-height: 0.4;
+}
+
+.price h3{
+  font-size: 1rem;
+}
+
+.button h3{
+  margin: auto;
+}
+
+.details h1{
+  color: hsl(271, 36%, 24%);
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 20px 0 40px;
+}
+
+
+/**************************** MAIN BACKGROUND ****************************/
+
+.bg-design{
+  background: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  border-radius: 0 0 200px;
+  height: 85%;
+  width: 50%;
+  position: absolute;
+}
+
+.container{
+  position: absolute;
+}
+
+.container, main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+
+/**************************** PHONE ****************************/
+
+.phone{
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 20px 50px 80px -50px hsl(206, 6%, 62%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0;
+  width: 70%;
+}
+
+.inner{
+  background-color: hsl(270, 20%, 96%);
+  border-radius: 25px;
+  margin: 10px;
+}
+
+/**************************** HEADER ****************************/
+
+.header{
+  background: linear-gradient(to right, hsl(264, 100%, 61%) 1%, hsl(293, 100%, 63%));
+  border-radius: 25px 25px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.invisible{
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  height: 20px;
+  width: 60%;
+}
+
+.visible{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.arrow{
+  width: 15%;
+}
+
+.profpic{
+  width: 12%;
+}
+
+.profpic img{
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 100%;
+}
+
+.profile-details{
+  margin-left: 10px;
+  text-align: left;
+  width: 60%;
+}
+
+/**************************** PHONE BODY ****************************/
+
+.in-1, .in-2, .in-3{
+  background-color: hsl(276, 100%, 93%);
+  border-radius: 15px 15px 15px 5px;
+  margin: 10px;
+  padding: 8px 12px;
+  text-align: left;
+  width: 60%;
+}
+
+.dog-images{
+  text-align: right;
+}
+
+.dog-images img{
+  border: 0;
+  border-radius: 15px;
+  width: 18%;
+  margin-right: 6px;
+}
+
+.dog-images .dog-3{
+  margin-right: 10px;
+}
+
+.out-1, .out-2{
+  background-color: white;
+  border-radius: 15px 10px 5px 15px;
+  box-shadow: 0 2px 7px hsl(206, 6%, 79%);
+  margin: 10px 10px 10px auto;
+  padding: 8px 12px;
+  text-align: left;
+  width: 60%;
+}
+
+.in-2{
+  margin-bottom: 20px;
+}
+
+.out-2{
+  margin-bottom: 20px;
+  width: 38%;
+}
+
+.option-1, .option-2{
+  background: linear-gradient(to left, hsl(264, 100%, 61%) 1%, hsl(293, 100%, 63%));
+  border-radius: 15px 15px 15px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  padding: 12px 15px;
+  text-align: left;
+  width: 78%;
+}
+
+.radio-button{
+  border: 2px solid hsl(289, 100%, 72%);
+  border-radius: 100px;
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+
+.radio-details{
+  width: 65%;
+}
+
+/**************************** REPLY BAR ****************************/
+
+.reply-bar{
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px auto 12px;
+  padding: 14px 25px;
+  width: 94%;
+  position: relative;
+}
+
+.button{
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 7px;
+}
+
+
+
+/**************************** desktop design ****************************/
+
+@media (min-width: 700px){
+
+  /******************** text styles ********************/
+  
+  .details h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .details h2{
+    font-size: 0.9rem;
+    line-height: 2;
+    margin: 0;
+    max-width: 400px;
+  }
+
+
+  /******************** others ********************/
+
+  main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bg-design{
+    border-radius: 0 0 200px 200px;
+    width: 30%;
+  }
+
+  .phone{
+    margin: 120px ;
+    width: 25%;
+  }
+
+  .details{
+    width: 40%;
+    text-align: left;
+  }
+
+}
